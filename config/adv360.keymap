@@ -78,49 +78,49 @@
             >;
         };
 
-extra1 {
-    display-name = "Red";
-    bindings = <
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        extra1 {
+            display-name = "Red";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
 
-extra2 {
-    display-name = "Purple";
-    bindings = <
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        extra2 {
+            display-name = "Purple";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
 
-extra3 {
-    display-name = "Cyan";
-    bindings = <
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        extra3 {
+            display-name = "Cyan";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans
+            >;
+        };
 
-extra4 {
-    display-name = "Yellow";
-    bindings = <
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    >;
-};
+        extra4 {
+            display-name = "Yellow";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans
+            >;
+        };
 
         Arrows {
             bindings = <
@@ -134,11 +134,11 @@ extra4 {
 
         Symbols {
             bindings = <
-&kp ESCAPE  &trans           &trans      &trans                &trans                 &trans     &trans                                      &trans  &trans  &trans     &trans  &trans        &trans         &trans
-&trans      &kp EXCLAMATION  &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans                                      &trans  &trans  &kp MINUS  &trans  &kp PLUS      &trans         &trans
-&trans      &kp POUND        &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp UNDER  &trans  &kp KP_EQUAL  &kp AMPERSAND  &trans
-&trans      &kp PERCENT      &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                  &trans      &trans                  &trans  &trans     &trans  &trans        &trans         &trans
-&trans      &trans           &trans      &trans                &trans                            &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans  &trans        &trans         &trans
+&kp ESCAPE  &trans           &trans      &trans                &trans                 &trans     &trans                                      &trans  &trans  &trans     &trans  &trans     &trans         &trans
+&trans      &kp EXCLAMATION  &kp AT      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans                                      &trans  &trans  &kp MINUS  &trans  &kp PLUS   &trans         &trans
+&trans      &kp POUND        &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp UNDER  &trans  &kp EQUAL  &kp AMPERSAND  &trans
+&trans      &kp PERCENT      &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                  &trans      &trans                  &trans  &trans     &trans  &trans     &trans         &trans
+&trans      &trans           &trans      &trans                &trans                            &trans  &trans  &trans      &trans  &trans  &trans          &trans     &trans  &trans     &trans         &trans
             >;
         };
     };
